@@ -1,7 +1,9 @@
 const btnGeneraGridEl = document.querySelector("#genera-grid");
+generaGrid();
 
+btnGeneraGridEl.addEventListener("click", generaGrid)
 
-btnGeneraGridEl.addEventListener("click", function () {
+function generaGrid(){
     const selectNumSquareEl = document.querySelector("[name=numSquare]");
     const outputGridEl = document.querySelector(".my-grid-output");
 
@@ -24,4 +26,5 @@ btnGeneraGridEl.addEventListener("click", function () {
 
 
 
-})
+
+}
