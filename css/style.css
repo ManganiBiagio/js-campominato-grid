@@ -3,6 +3,12 @@
     justify-content: space-between;
     align-items: center;
 }
+.box-img{
+    height: 40px;
+    aspect-ratio: 1 / 1;
+    margin-right: 1rem;
+    
+}
 
 .my-grid{
     display: flex;
