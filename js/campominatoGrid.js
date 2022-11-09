@@ -13,6 +13,11 @@ btnGeneraGridEl.addEventListener("click", function () {
         const newCell=document.createElement("div");
         newCell.classList.add("my-square");
         newCell.style.width=`calc(100% / ${numRiga})`;
+        newCell.innerHTML=i+1
+        newCell.addEventListener("click",function(){
+            this.classList.toggle("active-square");
+            console.log(this.innerHTML);
+        })
         outputGridEl.append(newCell);
     }
     

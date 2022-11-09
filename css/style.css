@@ -15,6 +15,10 @@
 
 }
 
+.active-square{
+    background-color:var(--bs-blue);
+}
+
 .green{
     background-color: #7fffd4;
 }
